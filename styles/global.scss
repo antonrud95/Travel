@@ -1,0 +1,37 @@
+@tailwind base;
+@import './typography.scss';
+
+@tailwind components;
+
+@tailwind utilities;
+@import './functions.scss';
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif !important;
+  font-size: 18px;
+}
+a {
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+}
+.slick-dots.slick-thumb {
+  bottom: -180px !important;
+  max-width: 820px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  display: flex !important;
+  height: 100%;
+  @media(min-width: 1024px) {
+    bottom: -250px !important;
+  }
+}
+.slick-dots li {
+  width: 30% !important;
+}
+
+
+@import './typography.scss'
