@@ -36,6 +36,20 @@ export async function getStaticProps() {
               link
             }
           }
+          ... on Benefit {
+            title
+            infoitems{
+              id
+              image{
+                url
+              }
+              title
+              text
+              link {
+                link
+              }
+            }
+          }
         }
       }
     }

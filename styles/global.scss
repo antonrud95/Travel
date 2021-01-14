@@ -15,6 +15,12 @@ body {
 a {
   text-decoration: none;
 }
+.negative-top {
+  margin-top: -223px !important;
+}
+.transition-nav {
+  transition: all .3s ease-in-out !important;
+}
 * {
   box-sizing: border-box;
 }
