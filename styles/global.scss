@@ -14,6 +14,7 @@ body {
 }
 a {
   text-decoration: none;
+  display: inline-block;
 }
 .negative-top {
   margin-top: -223px !important;
@@ -23,6 +24,16 @@ a {
 }
 * {
   box-sizing: border-box;
+}
+.var-width {
+  @media(min-width: 768px) {
+    width: calc(50% - 5px) !important;
+  }
+}
+.var-second-width {
+  @media(min-width: 768px) {
+    width: calc(33.33333% - 5px) !important;
+  }
 }
 .slick-dots.slick-thumb {
   bottom: -180px !important;

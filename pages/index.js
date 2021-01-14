@@ -50,6 +50,21 @@ export async function getStaticProps() {
               }
             }
           }
+          ... on Trip {
+            title
+            link {
+              link
+            }
+            tripitems {
+              id
+              slug
+              title
+              image {
+                url
+                id
+              }
+            }
+          }
         }
       }
     }
