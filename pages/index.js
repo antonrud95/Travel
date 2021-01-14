@@ -65,6 +65,19 @@ export async function getStaticProps() {
               }
             }
           }
+          ... on Article {
+            infoitems {
+              id
+              image {
+                url
+              }
+              title
+              text
+              link {
+                link
+              }
+            }
+          }
         }
       }
     }

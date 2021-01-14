@@ -40,6 +40,7 @@ module.exports = {
          95: '95px',
          100: '100px',
          110: '110px',
+         131: '131px',
          150: '150px',
          200: '200px',
          230: '230px',
@@ -60,6 +61,7 @@ module.exports = {
         xxl: '70px',
         82: '82px',
         100: '100px',
+        108: '108px',
         120: '120px',
         160: '160px',
         223: '223px',
@@ -134,10 +136,14 @@ module.exports = {
        fontFamily: {
         'play': ['Playfair Display', 'serif'],
        },
+       minWidth: {
+        597: '597px'
+       },
        width: {
          '32%': '32%',
          110: '110px',
          260: '260px',
+         597: '597px',
          50: '50px',
          '49%': '49%'
        },
