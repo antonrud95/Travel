@@ -20,7 +20,8 @@ module.exports = {
          'black': '#0F2137',
          'purple': '#8D448B',
          'main': '#02073E',
-         'grey': '#566272'
+         'grey': '#566272',
+         'blue': '#006DFE'
        },
        padding: {
          8: '8px',
@@ -36,6 +37,7 @@ module.exports = {
          56: '56px',
          60: '60px',
          70: '70px',
+         95: '95px',
          100: '100px',
          110: '110px',
          150: '150px',
@@ -47,15 +49,20 @@ module.exports = {
        margin: {
         xxs: '10px',
         xs: '20px',
+        16: '16px',
+        24: '24px',
         25: '25px',
         sm: '30px',
+        32: '32px',
         35: '35px',
         xl: '48px',
         58: '58px',
         xxl: '70px',
         82: '82px',
         100: '100px',
+        120: '120px',
         160: '160px',
+        223: '223px',
         50: '-50%'
        },
        letterSpacing: {
@@ -73,10 +80,15 @@ module.exports = {
          'blue': '#1B7DFF'
        },
        height: {
+         354: '354px',
+         283: '283px',
+         200: '200px',
+         170: '170px',
          31: '31px',
          xl: '55px',
          md: '28px',
-         50: '50px'
+         50: '50px',
+         66: '66px'
        },
        boxShadow: {
          'input': '0px 10px 50px rgba(48, 98, 145, 0.08)'
@@ -87,29 +99,36 @@ module.exports = {
         '3/4': '75%',
         1410: '1410px',
         1326: '1326px',
+        1298: '1298px',
+        1262: '1262px',
         1232: '1232px',
         1146: '1146px',
         1118: '1118px',
         822: '822px',
         650: '650px',
         633: '633px',
+        626: '626px',
         580: '580px',
         521: '521px',
         546: '546px',
         500: '500px',
         470: '470px',
+        415: '415px',
         410: '410px',
+        310: '310px',
         297: '297px',
         265: '265px',
         260: '260px',
         230: '230px',
         135: '135px',
         100: '100px',
+        66: '66px',
         50: '50px'
        },
        maxHeight: {
          230: '230px',
          60: '60px',
+         50: '50px',
          28: '28px'
        },
        fontFamily: {
@@ -119,7 +138,8 @@ module.exports = {
          '32%': '32%',
          110: '110px',
          260: '260px',
-         50: '50px'
+         50: '50px',
+         '49%': '49%'
        },
        zIndex: {
         '-10': '-10',
@@ -128,7 +148,11 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      margin: ['hover'],
+      transitionProperty: ['hover', 'focus'],
+      transitionDelay: ['hover', 'focus'],
+    },
   },
   plugins: [],
 }

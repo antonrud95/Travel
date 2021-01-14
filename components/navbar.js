@@ -25,9 +25,9 @@ const Navbar = ({ logo, links }) => {
     },
     [isOnTop]
   )
-    const navStyles = 'fixed right-0 left-0 top-0 z-1000 py-25 lg:py-56 transition duration-500 ease-in-out'
+    const navStyles = 'fixed right-0 left-0 top-0 z-1000'
     return (
-      <header className={isOnTop ? navStyles : classnames(navStyles, 'bg-blue')}>
+      <header className={isOnTop ? classnames(navStyles, 'py-25 lg:py-56 transition-nav') : classnames(navStyles, 'bg-blue py-25 transition-nav')}>
         <div className="container max-w-1118 mx-auto px-4">
           <div className='flex items-center justify-between '>
             <Fade top>

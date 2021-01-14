@@ -36,6 +36,35 @@ export async function getStaticProps() {
               link
             }
           }
+          ... on Benefit {
+            title
+            infoitems{
+              id
+              image{
+                url
+              }
+              title
+              text
+              link {
+                link
+              }
+            }
+          }
+          ... on Trip {
+            title
+            link {
+              link
+            }
+            tripitems {
+              id
+              slug
+              title
+              image {
+                url
+                id
+              }
+            }
+          }
         }
       }
     }

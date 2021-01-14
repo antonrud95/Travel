@@ -18,7 +18,7 @@ const Hero = ({ title, text, button, inputs, bgimage }) => {
             </Fade>
           </div>
           <Fade cascsde bottom>
-            <div className='lg:flex'>
+            <div className='lg:flex items-center'>
               {inputs.map((input, index) => {
                 return(
                   <Input text={input.placeholder} type={input.type} key={index} />
