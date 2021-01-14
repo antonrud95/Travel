@@ -148,7 +148,11 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      margin: ['hover'],
+      transitionProperty: ['hover', 'focus'],
+      transitionDelay: ['hover', 'focus'],
+    },
   },
   plugins: [],
 }
