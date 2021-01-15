@@ -65,6 +65,57 @@ export async function getStaticProps() {
               }
             }
           }
+          ... on Article {
+            infoitems {
+              id
+              image {
+                url
+              }
+              title
+              text
+              link {
+                link
+              }
+            }
+          }
+          ... on Visit {
+            title
+            visititems {
+              id
+              image {
+                url
+              }
+              town
+              likes
+              text
+              comments
+              button {
+                name
+                type
+                link
+              }
+            }
+          }
+          ... on Video {
+            image {
+              url
+            }
+          }
+          ... on Footer {
+            logo {
+              logo {
+                url
+              }
+            }
+            companies {
+              id
+              title
+              links {
+                id
+                link
+              }
+            }
+          }
         }
       }
     }

@@ -5,10 +5,13 @@ import Fade from 'react-reveal/Fade';
 
 const Trip = ({title, tripitems, link}) => {
     return(
-        <div className='container max-w-1298 mx-auto px-4'>
+        <div className='container max-w-1298 mx-auto px-4 lg:pt-131'>
             <div className='md:flex items-center justify-between mb-24 md:mb-xl'>
                 <Fade bottom>
-                    <h2 className='text-h2'>{title}</h2>
+                    <div className='relative'>
+                        <h2 className='text-h2 pb-5'>{title}</h2>
+                        <span className='absolute bottom-0 left-0 right-0 h-2 max-w-260 bg-blue'/>
+                    </div>
                 </Fade>
                 <Fade bottom delay={300}>
                     <div className='flex items-center'>
