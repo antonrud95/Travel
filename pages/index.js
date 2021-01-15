@@ -78,6 +78,24 @@ export async function getStaticProps() {
               }
             }
           }
+          ... on Visit {
+            title
+            visititems {
+              id
+              image {
+                url
+              }
+              town
+              likes
+              text
+              comments
+              button {
+                name
+                type
+                link
+              }
+            }
+          }
         }
       }
     }

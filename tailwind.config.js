@@ -24,6 +24,7 @@ module.exports = {
          'blue': '#006DFE'
        },
        padding: {
+         5: '5px',
          8: '8px',
          13: '13px',
          15: '15px',
@@ -48,6 +49,7 @@ module.exports = {
          372: '372px'
        },
        margin: {
+        4: '4px',
         xxs: '10px',
         xs: '20px',
         16: '16px',
@@ -56,8 +58,10 @@ module.exports = {
         sm: '30px',
         32: '32px',
         35: '35px',
+        45: '45px',
         xl: '48px',
         58: '58px',
+        64: '64px',
         xxl: '70px',
         82: '82px',
         100: '100px',
@@ -79,7 +83,8 @@ module.exports = {
          'purple': '#8D448B',
          'grey': '#DADADA',
          'tutorials': '#F8FAFC',
-         'blue': '#1B7DFF'
+         'blue': '#1B7DFF',
+         'black-block': 'rgba(21, 24, 36, 0.6)'
        },
        height: {
          354: '354px',
@@ -90,7 +95,8 @@ module.exports = {
          xl: '55px',
          md: '28px',
          50: '50px',
-         66: '66px'
+         66: '66px',
+         2: '2px'
        },
        boxShadow: {
          'input': '0px 10px 50px rgba(48, 98, 145, 0.08)'
@@ -117,6 +123,7 @@ module.exports = {
         470: '470px',
         415: '415px',
         410: '410px',
+        386: '386px',
         310: '310px',
         297: '297px',
         265: '265px',
