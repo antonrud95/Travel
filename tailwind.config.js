@@ -21,7 +21,8 @@ module.exports = {
          'purple': '#8D448B',
          'main': '#02073E',
          'grey': '#566272',
-         'blue': '#006DFE'
+         'blue': '#006DFE',
+         'hovered': 'rgba(255, 255, 255, 0.6)'
        },
        padding: {
          5: '5px',
@@ -50,6 +51,8 @@ module.exports = {
        },
        margin: {
         4: '4px',
+        6: '6px',
+        11: '11px',
         xxs: '10px',
         xs: '20px',
         16: '16px',
@@ -84,7 +87,8 @@ module.exports = {
          'grey': '#DADADA',
          'tutorials': '#F8FAFC',
          'blue': '#1B7DFF',
-         'black-block': 'rgba(21, 24, 36, 0.6)'
+         'black-block': 'rgba(21, 24, 36, 0.6)',
+         'dark': '#0E1D28'
        },
        height: {
          354: '354px',

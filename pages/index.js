@@ -101,6 +101,21 @@ export async function getStaticProps() {
               url
             }
           }
+          ... on Footer {
+            logo {
+              logo {
+                url
+              }
+            }
+            companies {
+              id
+              title
+              links {
+                id
+                link
+              }
+            }
+          }
         }
       }
     }
