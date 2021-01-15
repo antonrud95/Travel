@@ -96,6 +96,11 @@ export async function getStaticProps() {
               }
             }
           }
+          ... on Video {
+            image {
+              url
+            }
+          }
         }
       }
     }

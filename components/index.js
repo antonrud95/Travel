@@ -4,5 +4,6 @@ import Benefit from './benefit';
 import Trip from './trip';
 import Article from './article';
 import Visit from './visit';
+import Video from './video';
 
-export { Navbar, Hero, Benefit, Trip, Article, Visit };
+export { Navbar, Hero, Benefit, Trip, Article, Visit, Video };
